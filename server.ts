@@ -36,7 +36,7 @@ router.get("/rouge_sample", (ctx) => {
       case Rogue.HWALL: a += "-"; break;
       case Rogue.VWALL: a += "|"; break;
     }
-    if(i % 70 == 0) a += "\n";
+    if(i % w == 0) a += "\n";
   }
   ctx.response.body = a;
 });
