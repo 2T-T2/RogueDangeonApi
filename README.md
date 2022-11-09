@@ -1,5 +1,7 @@
 # RogueDangeonApi
 分割統治法を基にしたアルゴリズムを使用して生成したダンジョンデータを取得するAPI
+<br>
+サンプル https://rouge-dangeon.deno.dev/rouge_sample?w=70&h=40&n=10
 
 ## GET [https://rouge-dangeon.deno.dev/rouge_dangeon](https://rouge-dangeon.deno.dev/rouge_dangeon)
 ### リクエストパラメータ
